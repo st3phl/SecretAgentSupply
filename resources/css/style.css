@@ -23,6 +23,11 @@ h4 {
   font-size: 1rem;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .container {
   max-width: 960px;
   margin: 0 auto;
@@ -73,4 +78,24 @@ header img {
 .headline h1,
 .headline h4 {
   margin-top: 0.5rem;
+}
+
+/* Nav */
+
+nav {
+  background-color: firebrick;
+  padding: 0.75rem 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  display: inline-block;
+}
+
+.mobile-nav {
+  display: none;
 }
