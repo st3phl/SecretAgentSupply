@@ -10,6 +10,19 @@ body {
   color: white;
 }
 
+h1,
+h4 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
 .container {
   max-width: 960px;
   margin: 0 auto;
@@ -30,4 +43,34 @@ header .container {
 header img {
   height: 1.5rem;
   margin: 0 1rem 0 0.5rem;
+}
+
+/* Main Banner */
+
+.main-banner {
+  background-image: url("../images/moto.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+}
+
+.main-banner .container {
+  position: relative;
+  top: 9rem;
+}
+
+.headline {
+  background-color: black;
+  width: 20rem;
+  padding: 2rem 3rem;
+}
+
+.headline h1 {
+  line-height: 1.2em;
+}
+
+.headline h1,
+.headline h4 {
+  margin-top: 0.5rem;
 }
