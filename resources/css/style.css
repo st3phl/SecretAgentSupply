@@ -97,6 +97,7 @@ nav li {
 }
 
 .mobile-nav {
+  text-align: center;
   display: none;
 }
 
@@ -159,4 +160,24 @@ footer {
   margin-top: 4rem;
   background-color: black;
   padding: 2rem 0;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1024px) {
+  nav ul {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+  }
+
+  .item:last-child {
+    display: none;
+  }
+
+  .item {
+    width: 47%;
+  }
 }
