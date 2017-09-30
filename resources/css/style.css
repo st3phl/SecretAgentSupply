@@ -187,5 +187,67 @@ footer {
 }
 
 @media only screen and (max-width: 470px) {
+  header span {
+    display: none;
+  }
 
+  header img {
+    margin: 0;
+  }
+
+  header .container {
+    justify-content: center;
+  }
+
+  .main-banner {
+    height: 15rem;
+    position: relative;
+  }
+
+  .main-banner .container {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 1rem;
+  }
+
+  h4 {
+    font-size: 0.77rem;
+  }
+
+  .headline {
+    width: auto;
+    padding: 1rem 2rem;
+  }
+
+  .products,
+  .info {
+    width: 90%;
+    margin: 3rem auto 0 auto;
+    flex-wrap: wrap;
+  }
+
+  .item:nth-child(2n) {
+    display: none;
+  }
+
+  .item {
+    width: 100%;
+  }
+
+  .info-block {
+    width: 100%;
+  }
+
+  .info-block:last-child {
+    margin-top: 1rem;
+  }
+
+  footer {
+    text-align: center;
+  }
 }
